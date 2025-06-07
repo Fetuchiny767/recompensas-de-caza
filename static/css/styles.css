@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #d88d00;
+}
+
+header{
+    background-color: #f9e69d;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+h1 {
+  color: #2c2c2c;
+}
+
+.subtitulo {
+  color: #6d6d6d;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.malla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.carta {
+  background-color: #f9e69d;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+
+.carta img {
+  width: 100%;
+  border-radius: 8px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.carta h3 {
+  margin: 10px 0 5px;
+}
+
+.carta p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
